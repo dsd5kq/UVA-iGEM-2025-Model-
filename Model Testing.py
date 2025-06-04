@@ -45,4 +45,3 @@ sequence = ("ATG" + "TTT" * 12 + "TAT" * 12 +
             "ACG" * 12 + "GAT" * 12 + "AGT" * 12 + "TGA")
 gene = cobrame.TranscribedGene('RNA_a', 'mRNA', sequence)
 me.add_metabolites([gene])
-print(TranscriptionData('gene'))
