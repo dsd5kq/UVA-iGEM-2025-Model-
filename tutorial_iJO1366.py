@@ -568,21 +568,31 @@ ecoli.add_enzymatic_coupling(coupling_dict)
 #print('rnap' in [e.id for e in ecoli.enzymes])  # True
 #print(hasattr(rnap, '_internal_variable'))     # True
 
+#ecoli.addfix_dna_ratio(ratio=0.03) AttributeError – ThermoMEModel
+
+from etfl.core.allocation import fix_DNA_ratio
+from etfl.core.allocation import add_interpolation_variables
+from etfl.core.allocation import add_rna_mass_requirement
+from etfl.core.allocation import add_protein_mass_requirement
+
+fix_DNA_ratio(ecoli, dna_ratio=0.03, gc_ratio=0.508, chromosome_len=4.6e6)
+
 # Populate expression - this creates the peptides!
 ecoli.populate_expression()
 
 # Continue with the rest
-# ecoli.add_degradation() not valid
-# ecoli.add_interpolation_variables() not valid
+
+add_interpolation_variables(ecoli)
+
 ecoli.add_dummies(nt_ratios=nt_ratios,
                   mrna_kdeg=kdeg_mrna,
                   mrna_length=mrna_length_avg,
                   aa_ratios=aa_ratios,
                   enzyme_kdeg=kdeg_enz,
                   peptide_length=peptide_length_avg)
-# ecoli.add_protein_mass_requirement(neidhardt_mu, neidhardt_prel) not valid
-# ecoli.add_rna_mass_requirement(neidhardt_mu, neidhardt_rrel) initial – not valid
-# ecoli.add_mrna_mass_balance(neidhardt_mu, neidhardt_rrel) threw error
+
+add_rna_mass_requirement(ecoli, mu_values=neidhardt_mu, rna_rel=neidhardt_rrel)
+add_protein_mass_requirement(ecoli, mu_values=neidhardt_mu, p_rel=neidhardt_prel) 
 
 ecoli.print_info()
 ecoli.optimize()
