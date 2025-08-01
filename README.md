@@ -17,5 +17,7 @@ Our analysis files for the individual systems are provided in data_analysis_ccda
 
 The file stoc_mod.py is used for testing the entire system and outputs the desired graphs of ccda and ccdb.
 
+For getting output data from individual functions, parallel_stoc.py does that for ccda, and Testing_R.py does that for Ccdr
+
 
 
