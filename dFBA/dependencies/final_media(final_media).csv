@@ -1,0 +1,58 @@
+﻿"Category (SM1, LB, etc.)",Metabolite Name,Original Reaction ,Reverse Reaction ,Substrate Consumption ,mmol/gDW/hr,l + 100,xylose,arabinose,fructose,lactose,sucrose,glycerol
+SM1,Glucose ,EX_glc__D_e,EX_glc__D_e_reverse,-4.6,797.2270364,100,0,0,0,0,0,0
+SM1,Citrate ,EX_cit_e,EX_cit_e_reverse,,,100,100,100,100,100,100,100
+SM1,Ammonium Ion,EX_nh4_e,EX_nh4_e_reverse,,,100,100,100,100,100,100,100
+SM1,Phosphate ,EX_pi_e,EX_pi_e_reverse,,,100,100,100,100,100,100,100
+SM1,Magnesium ,EX_mg2_e,EX_mg2_e_reverse,,,100,100,100,100,100,100,100
+SM1,Sulfate ,EX_so4_e,EX_so4_e_reverse,,,100,100,100,100,100,100,100
+Other,Thiosulfate ,EX_tsul_e,EX_tsul_e_reverse,,,100,100,100,100,100,100,100
+"LB, SM1",Sodium,EX_na1_e,EX_na1_e_reverse,,,100,100,100,100,100,100,100
+LB/Tryptone ,Potassium ,EX_k_e,EX_k_e_reverse,,,100,100,100,100,100,100,100
+LB/Tryptone ,Calcium ,EX_ca2_e,EX_ca2_e_reverse,,,100,100,100,100,100,100,100
+LB/Tryptone ,Alanine,EX_ala__L_e,EX_ala__L_e_reverse,-0.079,11.89168034,11.89168034,11.89168034,11.89168034,11.89168034,11.89168034,11.89168034,11.89168034
+LB/Tryptone ,Arginine,EX_arg__L_e,EX_arg__L_e_reverse,-0.44,76.25649913,76.26,76.26,76.26,76.26,76.26,76.26,76.26
+LB/Tryptone ,Aspartic acid,EX_asp__L_e,EX_asp__L_e_reverse,-1.23,213.1715771,213.1715771,213.1715771,213.1715771,213.1715771,213.1715771,213.1715771,213.1715771
+LB/Tryptone ,Glutamic acid,EX_glu__L_e,EX_glu__L_e_reverse,-0.27,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083
+LB/Tryptone ,Glycine,EX_gly_e,EX_gly_e_reverse,-0.01,1.733102253,1.733102253,1.733102253,1.733102253,1.733102253,1.733102253,1.733102253,1.733102253
+LB/Tryptone ,Histidine,EX_his__L_e,EX_his__L_e_reverse,-0.09,15.59792028,15.59792028,15.59792028,15.59792028,15.59792028,15.59792028,15.59792028,15.59792028
+LB/Tryptone ,Isoleucine,EX_ile__L_e,EX_ile__L_e_reverse,-0.26,45.06065858,45.06065858,45.06065858,45.06065858,45.06065858,45.06065858,45.06065858,45.06065858
+LB/Tryptone ,Leucine,EX_leu__L_e,EX_leu__L_e_reverse,-0.37,64.12478336,64.12478336,64.12478336,64.12478336,64.12478336,64.12478336,64.12478336,64.12478336
+LB/Tryptone ,Lysine,EX_lys__L_e,EX_lys__L_e_reverse,-0.27,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083,46.79376083
+LB/Tryptone ,Methionine,EX_met__L_e,EX_met__L_e_reverse,-0.13,22.53032929,22.53032929,22.53032929,22.53032929,22.53032929,22.53032929,22.53032929,22.53032929
+LB/Tryptone ,Phenylalanine,EX_phe__L_e,EX_phe__L_e_reverse,-0.15,25.9965338,25.9965338,25.9965338,25.9965338,25.9965338,25.9965338,25.9965338,25.9965338
+LB/Tryptone ,Proline,EX_pro__L_e,EX_pro__L_e_reverse,-0.14,24.26343154,24.26343154,24.26343154,24.26343154,24.26343154,24.26343154,24.26343154,24.26343154
+LB/Tryptone ,Serine,EX_ser__L_e,EX_ser__L_e_reverse,-13.64,2363.951473,1000,1000,1000,1000,1000,1000,1000
+LB/Tryptone ,Threonine,EX_thr__L_e,EX_thr__L_e_reverse,-0.25,43.32755633,43.32755633,43.32755633,43.32755633,43.32755633,43.32755633,43.32755633,43.32755633
+LB/Tryptone ,Tryptophan,EX_trp__L_e,EX_trp__L_e_reverse,-0.04,6.932409012,6.932409012,6.932409012,6.932409012,6.932409012,6.932409012,6.932409012,6.932409012
+LB/Tryptone ,Tyrosine,EX_tyr__L_e,EX_tyr__L_e_reverse,-0.12,20.79722704,20.79722704,20.79722704,20.79722704,20.79722704,20.79722704,20.79722704,20.79722704
+LB/Tryptone ,Valine,EX_val__L_e,EX_val__L_e_reverse,-0.4,69.32409012,69.32409012,69.32409012,69.32409012,69.32409012,69.32409012,69.32409012,69.32409012
+LB/NaCl ,Chloride ,EX_cl_e,EX_cl_e_reverse,,,100,100,100,100,100,100,100
+LB,Cysteine ,EX_cys__L_e,EX_cys__L_e_reverse,-0.57,98.78682842,98.78682842,98.78682842,98.78682842,98.78682842,98.78682842,98.78682842,98.78682842
+LB,Nickel ,EX_ni2_e,EX_ni2_e_reverse,,,100,100,100,100,100,100,100
+LB,Selenium,EX_sel_e,EX_sel_e_reverse,,,100,100,100,100,100,100,100
+LB,Manganese,EX_mn2_e,EX_mn2_e_reverse,,,100,100,100,100,100,100,100
+LB,Zinc,EX_zn2_e,EX_zn2_e_reverse,,,100,100,100,100,100,100,100
+LB,Molybdenum,EX_mobd_e,EX_mobd_e_reverse,,,100,100,100,100,100,100,100
+LB,Copper,EX_cu2_e,EX_cu2_e_reverse,,,100,100,100,100,100,100,100
+LB,Cobalt,EX_cobalt2_e,EX_cobalt2_e_reverse,,,100,100,100,100,100,100,100
+LB,Thiamine,EX_thm_e,EX_thm_e_reverse,,,100,100,100,100,100,100,100
+LB,Nicotinic acid,EX_nac_e,EX_nac_e_reverse,,,100,100,100,100,100,100,100
+LB,Pyridoxine,EX_pydx_e,EX_pydx_e_reverse,,,100,100,100,100,100,100,100
+LB,Biotin,EX_btn_e,EX_btn_e_reverse,,,100,100,100,100,100,100,100
+LB,Cobalamin,EX_cbl1_e,EX_cbl1_e_reverse,,,100,100,100,100,100,100,100
+SM1,Iron,EX_fe2_e,EX_fe2_e_reverse,,,100,100,100,100,100,100,100
+SM1,Iron,EX_fe3_e,EX_fe3_e_reverse,,,100,100,100,100,100,100,100
+Alternate Carbon Source,xylose,EX_xyl__D_e,EX_xyl__D_e_reverse,,,0,100,0,0,0,0,0
+Alternate Carbon Source,arabinose,EX_arab__L_e,EX_arab__L_e_reverse,,,0,0,100,0,0,0,0
+Alternate Carbon Source,fructose,EX_fru_e,EX_fru_e_reverse,,,0,0,0,100,0,0,0
+Alternate Carbon Source,lactose,EX_lcts_e,EX_lcts_e_reverse,,,0,0,0,0,100,0,0
+Alternate Carbon Source,sucrose,EX_sucr_e,EX_sucr_e_reverse,,,0,0,0,0,0,100,0
+Alternate Carbon Source,glycerol,EX_glyc_e,EX_glyc_e_reverse,,,0,0,0,0,0,0,100
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
